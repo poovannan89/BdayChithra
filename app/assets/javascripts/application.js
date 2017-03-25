@@ -28,7 +28,7 @@ $(document).ready(function(){
 
   $('#contentDiv').height($(document).height());
 
-  var flashStopDate = new Date(2017, 03, 28, 10, 0, 0, 0);
+  var flashStopDate = new Date(2017, 03, 29, 10, 0, 0, 0);
   var birthday = new Date(2017, 03, 28, 0, 0, 0, 0);
 
 
@@ -36,12 +36,12 @@ $(document).ready(function(){
   {
       $('#countdown_dashboard').countDown({
                 targetDate: {
-                  'day':    25,
+                  'day':    28,
                   'month':  3,
                   'year':   2017,
-                  'hour':   19,
-                  'min':    6,
-                  'sec':    0
+                  'hour':   11,
+                  'min':    59,
+                  'sec':    45
                 },
                 onComplete:function(){
                   $('#counterDiv').html('<h5 style="color:white;" >Happy birthday Ammu</h5><object width="640" height="520" style="visible:none" data="assets/Happybday.swf"></object><h6>My dear Responsible and Romantic Queen</h6>');
