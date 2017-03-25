@@ -45,7 +45,7 @@ $(document).ready(function(){
                 },
                 onComplete:function(){
                   $('#counterDiv').html('<h5 style="color:white;" >Happy birthday Ammu</h5><object width="640" height="520" style="visible:none" data="assets/Happybday.swf"></object><h6>My dear Responsible and Romantic Queen</h6>');
-                  $('#counterDiv').css('background-image', 'url("assets/writing2.png")', 'background-repeat: repeat');
+                  $('#counterDiv').css('background-image', 'url("assets/writing.png")', 'background-repeat: repeat');
                   $('#counterDiv').css('background-size', '300px');
                 }
               });
