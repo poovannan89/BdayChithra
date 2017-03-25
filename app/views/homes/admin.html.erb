@@ -1,0 +1,39 @@
+<div class="span4" style="margin-top:70px;">
+	<% @users.each do |u| %>
+	
+	<%= image_tag(u.image_url, :height=>50, :width=>50) %>
+	<%= u.name %>
+	
+	<% end %>
+</div>
+
+<table style="margin-top:70px;">
+	<% @images.each do |i| %>
+		<tr>
+			<td><%= i.user.name %></td>
+			<td><%= i.image_url %></td>
+			<td><%= i.caption %></td>
+		</tr>
+	<% end %>
+</table>
+
+
+<table>
+	<% @audios.each do |a| %>
+		<tr>
+			<td><%= a.user.name %></td>
+			<td><%= a.audio_url %></td>
+		</tr>
+	<% end %>
+</table>
+
+
+<table>
+	<% @wishes.each do |w| %>
+		<tr>
+			<td><%= w.user.name %></td>
+			<td><%= w.title %></td>
+			<td>***************</td>
+		</tr>
+	<% end %>
+</table>

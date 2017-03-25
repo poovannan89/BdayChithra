@@ -1,0 +1,136 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require main
+ *= require dark
+ *= require_tree .
+ */
+
+
+@font-face {
+  font-family: 'Precious';
+  src: url('/assets/Precious.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#allWishes{
+  overflow: hidden;
+  margin-left:auto;
+  margin-right:auto;
+  width: 80%;
+
+}
+
+#prev2{
+  text-align: left;
+  z-index: 999;
+}
+
+#next2{
+  text-align: right;
+  z-index: 999;
+}
+
+  #wishTitle{
+    font-family: 'Precious';
+  }
+
+  #wisherName{
+    text-align: right;
+    font-family: "Precious";
+    font-size: 200%;
+  }
+
+  .wishNav{
+    margin-top: 25px;
+  }
+
+  .wishTotalDiv{
+    margin-top: 150px;
+    min-width: 80%;  
+  }
+
+  .wishTotalDiv p{
+    word-wrap: break-word;
+    font-family: 'Precious';
+    line-height: 200%;
+  }
+
+ #wishDiv p{
+  word-wrap: break-word;
+  font-family: 'Precious';
+  line-height: 200%;
+ }
+
+ #addressDiv h4{
+  text-align: left;
+  font-family: 'Precious';
+  font-size: 200%;
+ }
+
+ #wishDiv p{
+  text-align: left;
+  font-size: 200%;
+ }
+
+#audioHome:hover{
+  background-color: #FFFFFF;
+  
+}
+
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    height: 20px;
+}
+
+.item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counterDiv{
+	height: 700px;
+	margin-top: 200px;
+}
+
+.circle {
+  display:inline;
+  padding-left:4px;
+  padding-right:4px;
+  background:rgb(0,0,0);
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+
+.circle a {
+  font-size:10px;
+  text-decoration:none;
+  color:#fff;
+
+  position:relative; top:-2px;
+}
+
+.fr{
+	float: right;
+}
+
+.fl{
+	float: left;
+}
+
+#contentDiv{
+  background: url('collage60.png') repeat;
+  
+}
