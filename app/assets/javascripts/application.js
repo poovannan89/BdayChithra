@@ -36,15 +36,15 @@ $(document).ready(function(){
   {
       $('#countdown_dashboard').countDown({
                 targetDate: {
-                  'day':    28,
+                  'day':    26,
                   'month':  3,
                   'year':   2017,
-                  'hour':   11,
-                  'min':    59,
+                  'hour':   10,
+                  'min':    20,
                   'sec':    45
                 },
                 onComplete:function(){
-                  $('#counterDiv').html('<h5 style="color:white;" >Happy birthday Ammu</h5><object width="640" height="520" style="visible:none" data="assets/Happybday.swf"></object><h6>My dear Responsible and Romantic Queen</h6>');
+                  $('#counterDiv').html('<h5 style="color:white;" >Happy birthday Ammu</h5><object width="640" height="520" style="visible:none" data="Happybday.swf"></object><h6>My dear Responsible and Romantic Queen</h6>');
                   $('#counterDiv').css('background-image', 'url("assets/writing.png")', 'background-repeat: repeat');
                   $('#counterDiv').css('background-size', '300px');
                 }
