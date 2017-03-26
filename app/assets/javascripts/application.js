@@ -44,21 +44,12 @@ $(document).ready(function(){
                   'sec':    45
                 },
                 onComplete:function(){
-                  $('#counterDiv').html('<h5 style="color:white;" >Happy birthday Ammu</h5><object width="640" height="520" style="visible:none" data="Happybday.swf"></object><h6>My dear Responsible and Romantic Queen</h6>');
+                  $('#counterDiv').html('<h5 style="color:black;" >Happy birthday Ammu :) </h5><object width="640" height="520" style="visible:none" data="Happybday.swf"></object><h6>My dear Responsible and Romantic Queen</h6>');
                   $('#counterDiv').css('background-image', 'url("assets/writing.png")', 'background-repeat: repeat');
                   $('#counterDiv').css('background-size', '300px');
                 }
               });
-    }
-    else if(new Date() < flashStopDate){
-      $('#counterDiv').html('<object width="640" height="520" style="visible:none" data="assets/Happybirthday.swf"></object>')
-    }
-    else{
-      if(Math.floor((Math.random()*10)+1)%2)
-        $('#counterDiv').html('<img src="/assets/mywish.gif"></img>')
-      else
-        $('#counterDiv').html('<img src="/assets/mywish1.gif"></img>')
-    }
+    }    
 });
 
 
