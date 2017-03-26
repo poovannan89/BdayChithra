@@ -43,24 +43,24 @@ h2.subtitle {
 }
 
 .weeks_dash {
-	background: transparent url('dark_weeks_dash.png') 0 0 no-repeat;
+	background: transparent url(<%= asset_path('dark_weeks_dash.png') %>) 0 0 no-repeat;
 }
 
 .days_dash {
-	background: transparent url('dark_days_dash.png') 0 0 no-repeat;
+	background: transparent url(<%= asset_path('dark_days_dash.png') %>) 0 0 no-repeat;
 }
 
 .hours_dash {
 	clear: left;
-	background: transparent url('dark_hours_dash.png') 0 0 no-repeat;
+	background: transparent url(<%= asset_path('dark_hours_dash.png') %>) 0 0 no-repeat;
 }
 
 .minutes_dash {
-	background: transparent url('dark_minutes_dash.png') 0 0 no-repeat;
+	background: transparent url(<%= asset_path('dark_minutes_dash.png') %>) 0 0 no-repeat;
 }
 
 .seconds_dash {
-	background: transparent url('dark_seconds_dash.png') 0 0 no-repeat;
+	background: transparent url(<%= asset_path('dark_seconds_dash.png') %>) 0 0 no-repeat;
 }
 
 .dash .digit {
