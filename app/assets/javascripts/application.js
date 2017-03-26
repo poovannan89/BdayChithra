@@ -36,7 +36,7 @@ $(document).ready(function(){
   {
       $('#countdown_dashboard').countDown({
                 targetDate: {
-                  'day':    28,
+                  'day':    27,
                   'month':  3,
                   'year':   2017,
                   'hour':   23,
