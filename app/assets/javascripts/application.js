@@ -36,11 +36,11 @@ $(document).ready(function(){
   {
       $('#countdown_dashboard').countDown({
                 targetDate: {
-                  'day':    26,
+                  'day':    28,
                   'month':  3,
                   'year':   2017,
-                  'hour':   10,
-                  'min':    20,
+                  'hour':   23,
+                  'min':    59,
                   'sec':    45
                 },
                 onComplete:function(){
