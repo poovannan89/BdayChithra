@@ -30,7 +30,7 @@ $(document).ready(function(){
 
   var flashStopDate = new Date(2017, 03, 29, 10, 0, 0, 0);
   var birthday = new Date(2017, 03, 28, 0, 0, 0, 0);
-
+  $('#counterDiv').css('background-image', "<%= asset_path('writing.png') %>");
 
   if(new Date() < birthday)
   {
@@ -45,7 +45,7 @@ $(document).ready(function(){
                 },
                 onComplete:function(){
                   $('#counterDiv').html('<h5 style="color:black;" >Happy birthday Ammu :) </h5><object width="640" height="520" style="visible:none" data="Happybday.swf"></object><h6>My dear Responsible and Romantic Queen</h6>');
-                  $('#counterDiv').css('background-image', 'url("assets/writing.png")', 'background-repeat: repeat');
+                  $('#counterDiv').css('background-image', "<%= asset_path('writing.png') %>", 'background-repeat: repeat');
                   $('#counterDiv').css('background-size', '300px');
                 }
               });
